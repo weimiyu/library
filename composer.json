@@ -1,0 +1,19 @@
+{
+    "name": "weimiyu/library",
+    "description": "my own library",
+    "type": "sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weimiyu",
+            "email": "weimiyu18@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "weimy\\": "src/"
+        }
+    }
+}
